@@ -1,0 +1,55 @@
+body{
+    font-family: 'Radio Canada', sans-serif;
+    background-image: url("https://www.tbsconsultoria.com.br/wp-content/uploads/2021/05/fantasy-universe-space-background-volumetric-lighting-3d-render-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form-nasa {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background:linear-gradient(rgb(44, 44, 136), antiquewhite);
+    width:600px;
+    height:600px;
+    text-align:center;
+    padding:5px;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+    border-width:2px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    color:antiquewhite;
+    box-shadow:5px 5px 10px black;
+
+}
+
+#button-nasa{
+    background:rgb(44,44,136);
+    color:antiquewhite;
+    border-color:antiquewhite;
+    width:100px;
+    margin-right:auto;
+    margin-left:auto;
+    cursor:pointer;
+    border-radius:5px;
+}
+
+#button-nasa:hover{
+    opacity: 0.75;
+    background:red;
+}
+#date-nasa-input{
+    width:150px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:5px;
+    cursor:text;
+}
+
+#date-image-nasa{
+    margin-top:-30px;
+}
+
